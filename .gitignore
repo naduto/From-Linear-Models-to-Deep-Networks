@@ -1,0 +1,38 @@
+# Ignore the environment folder created by PyCharm/venv
+.venv/
+venv/
+env/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore Jupyter Notebook checkpoint directory
+.ipynb_checkpoints/
+
+# Ignore files created by the OS
+*~
+*.swp
+.DS_Store # Mac OS
+Thumbs.db # Windows
+
+# Ignore Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore build/distribution files
+dist/
+build/
+*.egg-info/
+
+# Ignore machine learning/data specific files (optional, depends on size/security)
+# If 'telescope_data' is a small, necessary file, keep it. 
+# If it's large and can be regenerated, uncomment the line below.
+# telescope_data
+
+# Ignore large/local data files and log files
+*.log
+*.sqlite
+*.csv # Only if these files are large or temporary
+*.data
