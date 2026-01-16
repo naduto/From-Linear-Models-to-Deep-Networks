@@ -1,4 +1,4 @@
-# Assignment 2: From Linear Models to Deep Networks
+From Linear Models to Deep Networks
 
 A comprehensive exploration of machine learning classification techniques, progressing from traditional linear models to modern deep neural networks. This project implements and compares various approaches for handwritten digit recognition using the MNIST dataset.
 
